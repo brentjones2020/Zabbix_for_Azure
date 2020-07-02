@@ -7,17 +7,17 @@ Supported Distros:
 Server: Ubuntu 14.04.5 LTS,CentOS 7.3
 Agent: Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, CentOS 7.1,CentOS 7.2
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 - nested/monitoringSolution.json
 This will install the monitor VM to given vnet/subnet, and also install monitoring agent on all vms connected to that vnet/subnet.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringSolution.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringSolution.json)
 
 
 Deployment parameters:
@@ -45,7 +45,7 @@ Deployment output
 - nested/monitoringSolutionWithMail.json
 This will install the monitor VM to given vnet/subnet, and also install monitoring agent on all vms connected to that vnet/subnet. Will add mail media with configured parameters.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringSolutionWithMail.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringSolutionWithMail.json)
 
 Deployment parameters:
 
@@ -75,22 +75,22 @@ Deployment output
 - nested/clusterNodes.json
 This will deploy a testing cluster, for testing, please deploy this one first before other templates.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FclusterNodes.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FclusterNodes.json)
 
 - nested/monitoringServer.json
 This will install monitoring server only.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringServer.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringServer.json)
 
 - nested/monitoringAgentByVnet.json
 This will install monitoring agents for given vnet/subnet.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringAgentByVnet.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringAgentByVnet.json)
 
 - nested/monitoringAgentByVms.json
 This will install monitoring agents for given Vms.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringAgentByVms.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F.github.com%2Fbrentjones2020%2FZabbix_for_Azure%2Ftree%2Fmaster%2Fzabbix-template-bj.02.07.2020-master%2Fnested%2FmonitoringAgentByVms.json)
 
 
 
